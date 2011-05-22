@@ -1,0 +1,53 @@
+{
+      chart: {
+         renderTo: 'container',
+         defaultSeriesType: 'column',
+         plotBackgroundColor: null,
+         backgroundColor: null,
+		
+         plotBorderWidth: null,
+         plotShadow: false
+      },
+      credits : {
+        enabled: false
+      },
+      title: {
+         text: 'Versions ( %NOW_PLACEHOLDER% )', 
+         style: {
+            color: '#9E9FA0'
+        }
+      },
+     
+      yAxis: {
+         min: 0,
+         title: {
+            text: 'Work in progress', 
+            style: {
+            color: '#9E9FA0'
+                }
+         }
+      },
+         
+      plotOptions: {
+         column: {
+            stacking: 'normal'
+         },
+         series: {
+            borderWidth: 0
+        }
+      },
+      legend: {
+      enabled: false
+      },
+      
+       xAxis: {
+         categories: %CATEGORIES_PLACEHOLDER% ,
+          labels:    {rotation: -45, align: 'right' }
+          
+      },
+       
+      series: [
+        %DATA_PLACEHOLDER%
+       ]
+      
+}
