@@ -1,3 +1,8 @@
+Jira-Dashboard
+--------------
+
+<img src="https://github.com/sgroschupf/jira-dashboard/raw/master/screens/jira-widget.png" alt="Screenshot" />
+
 Generates a highchart.com stacked bar chart json file that can be loaded into a geckboard.
 The file needs to be placed on a server that is accessable via http. 
 A simple free solution for this is the public folder in a drobbox account.
