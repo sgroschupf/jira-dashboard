@@ -14,7 +14,7 @@ http://support.geckoboard.com/entries/274940-custom-chart-widget-type-definition
 http://www.highcharts.com/
 
 
-To run
+Installation
 -------
 1.) Get a free dropbox account and install the app on the computer that you will run this tool.
 2.) Dropbox will mount as drive. Identify the path of the dropbox public folder.
