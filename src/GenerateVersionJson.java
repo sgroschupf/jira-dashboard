@@ -22,7 +22,7 @@ public class GenerateVersionJson {
     private static final String NOW_PLACEHOLDER = "%NOW_PLACEHOLDER%";
 
     private static String DAP_PROJECT_KEY = "DAP";
-    private static String[] ISSUE_STATES = new String[] { "open", "in progress", "reopen", "resolved", "closed" };
+    private static String[] ISSUE_STATES = new String[] { "open", "in progress", "reopened", "resolved", "closed" };
     private static String[] STATE_COLORS = new String[] { "#A7432C", "#AF7324", "#FFE716", "#7BAF00", "#1398AB" };
 
     public static void main(String[] args) throws IOException, ParseException, InterruptedException {
